@@ -14,7 +14,7 @@ public class Exercise3 {
 
     private void checkStringContent (String stringToCheck) {
         while (stringToCheck != null) {
-            int index = stringToCheck.indexOf(c); // stuck here - nu 
+            int index = stringToCheck.indexOf(c); // stuck here - nu
             if (index == -1) {
                 stringToCheck = null;
             }

@@ -11,8 +11,10 @@ public class Main {
 //    Exercise2 exercise2 = new Exercise2("adriantest149  AAAAAI  123 1 3123 123 12 123");
 //    exercise2.printResults();
 
-        Exercise3 exercise3 = new Exercise3("aabb aa dd aa", "a");
-        exercise3.printResults();
+//        Exercise3 exercise3 = new Exercise3("aabb aa dd aa", "a");
+//        exercise3.printResults();
+
+
 
     }
 }
