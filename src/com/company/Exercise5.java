@@ -2,6 +2,8 @@ package com.company;
 
 public class Exercise5 {
 
+//    Exercise captainCrunchDecode: Write a method which takes a String parameter and returns a String following the decoding rules
+//
 //    The Captain Crunch decoder ring works by taking each letter in a string and adding 13 to it.
 //    For example, ’a’ becomes ’n’ and ’b’ becomes ’o’. The letters “wrap around” at the end, so ’z’ becomes ’m’.
 //    Write a method that takes a String and that returns a new String containing the encoded version.
