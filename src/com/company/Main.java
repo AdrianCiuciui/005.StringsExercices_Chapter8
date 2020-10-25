@@ -14,7 +14,14 @@ public class Main {
 //        Exercise3 exercise3 = new Exercise3("aabb aa dd aa", "a");
 //        exercise3.printResults();
 
+//        Exercise4 exercise41 = new Exercise4("");
+//        Exercise4 exercise42 = new Exercise4("123");
+        Exercise4 exercise43 = new Exercise4("abc");
+        Exercise4 exercise44 = new Exercise4("aoksa");
 
-
+//        exercise41.printResult();
+//        exercise42.printResult();
+        exercise43.printResult();
+        exercise44.printResult();
     }
 }
