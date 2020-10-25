@@ -10,36 +10,29 @@ public class Exercise4 {
 
     public void printResult () {
         if (isAbecedarian()) {
-            System.out.println("the string '" + this.string + "' is abecedarian");
+            System.out.println("The string '" + this.string + "' is abecedarian");
         }
         else {
-            System.out.println("the string '" + this.string + "' is NOT abecedarian");
+            System.out.println("The string '" + this.string + "' is NOT abecedarian");
         }
     }
 
     private boolean isAbecedarian () {
-        if (this.string == null || this.string.length() < 2 || !compareCharacters(0)) {
-            System.out.println("isAbecedarian false");
-            return false;
-        }
-        else {
-            System.out.println("isAbecedarian true");
-            return true;
-        }
-
+        return this.string != null && this.string.length() >= 3 && compareCharacters();
     }
 
-    private boolean compareCharacters (int index) {
-        if (this.string.charAt(index - 1) == string.length()) return true;
-        int compare = Character.compare(this.string.charAt(index), this.string.charAt(index+1));
-        System.out.println("int compare value:" + compare);
-        if (compare >= 0) {
-            System.out.println("compare >= 0");
-            return false;
-        } else {
-            System.out.println("compare < 0");
-            compareCharacters(index + 1);
+    private boolean compareCharacters () {
+        int index = 0;
+        while (index + 1 < this.string.length()) {
+
+            int compare = Character.compare(this.string.charAt(index), this.string.charAt(index + 1));
+            if (compare >= 0) {
+                return false;
+            } else {
+                index++;
+            }
         }
         return true;
     }
+
 }
