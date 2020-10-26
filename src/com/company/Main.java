@@ -19,7 +19,9 @@ public class Main {
 //        exercise43.printResult();
 //        exercise44.printResult();
 
-        Exercise5 exercise5 = new Exercise5("x y z_a b c WXYZ_ABC");
-        exercise5.printResult();
+//        Exercise5 exercise5 = new Exercise5("x y z_a b c WXYZ_ABC");
+//        exercise5.printResult();
+
+
     }
 }
