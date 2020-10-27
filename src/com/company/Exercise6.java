@@ -36,4 +36,8 @@ public class Exercise6 {
     private void processString () {
         changedString = changedString.replaceAll("[" + cToFind + "]", "" + cToReplace + "");
     }
+
+    public String printClassName () {
+        return this.getClass().getSimpleName();
+    }
 }
